@@ -1,4 +1,6 @@
+<section class="main_box">
 <section class="main_menu">
+
   <div class="dropdown">
     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       Main Menu
@@ -6,14 +8,14 @@
     </button>
 
     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-      <a class="dropdown-item">Battle</a>
+      <a class="dropdown-item" routerLink='/battle' >Battle</a>
       <a class="dropdown-item" routerLink='/battlepvp' >Battle PvP</a>
-      <a class="dropdown-item">Create Account</a>
-      <a class="dropdown-item">About us</a>
+      <a class="dropdown-item" routerLink='/createaccount' >Create Account</a>
+      <a class="dropdown-item" routerLink='/about' >About us</a>
     </div>
   </div>
-
-
 </section>
+
 <router-outlet></router-outlet>
 
+</section>

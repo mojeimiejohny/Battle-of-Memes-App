@@ -5,6 +5,8 @@ import {MainComponent} from './main/main.component';
 import {StartComponent} from './start/start.component';
 import {BattlepvpComponent} from './battlepvp/component/battlepvp.component';
 import {BattleComponent} from './battle/component/battle.component';
+import {AboutComponent} from './about/component/about.component';
+import {CreateaccountComponent} from './createaccount/component/createaccount.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/start', pathMatch: 'full' },

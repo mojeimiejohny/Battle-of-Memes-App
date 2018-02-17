@@ -2,5 +2,13 @@
   text-align: right;
   font-family: Arial Black;
   color: #0d000d;
+  justify-content:flex-start ;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 50;
 }
+.main_box {
+  position: relative;
 
+}
