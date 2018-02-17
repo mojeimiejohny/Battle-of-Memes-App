@@ -5,9 +5,10 @@ import { NgModule } from '@angular/core';
 // components imports
 import { AppComponent } from './app.component';
 import {AppRoutingModule} from './app-routing.module';
-import { WallComponent } from './wall/component/wall.component';
 import {MainModule} from './main/main.module';
 import {StartModule} from './start/start.module';
+import {BattlepvpModule} from './battlepvp/battlepvp.module';
+
 
 // module imports
 
@@ -22,7 +23,8 @@ import {StartModule} from './start/start.module';
     BrowserModule,
     AppRoutingModule,
     MainModule,
-    StartModule
+    StartModule,
+    BattlepvpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
