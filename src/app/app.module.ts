@@ -8,6 +8,7 @@ import {AppRoutingModule} from './app-routing.module';
 import {MainModule} from './main/main.module';
 import {StartModule} from './start/start.module';
 import {BattlepvpModule} from './battlepvp/battlepvp.module';
+import {BattleModule} from './battle/battle.module';
 
 
 // module imports
@@ -24,7 +25,8 @@ import {BattlepvpModule} from './battlepvp/battlepvp.module';
     AppRoutingModule,
     MainModule,
     StartModule,
-    BattlepvpModule
+    BattlepvpModule,
+    BattleModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -8,7 +8,7 @@ import {AuthenticationService} from '../services/authentication.service';
   styleUrls: ['./info.component.scss']
 })
 export class InfoComponent implements OnInit, OnDestroy {
-  title = 'YODA Customer Service Chat';
+  title = 'Battle of Memes';
   logged = true;
   toggleComponent = false;
   sub: Subscription;
